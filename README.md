@@ -2,8 +2,9 @@
 ### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
+
 ### THEORY 
-SR Flip-Flop
+## SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
 ![image](https://user-images.githubusercontent.com/36288975/167910294-bb550548-b1dc-4cba-9044-31d9037d476b.png)
@@ -101,40 +102,62 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
-/* write all the steps invloved */
+### Procedure:
+1.Using nand gates and wires construct sr flip flop. 
 
+2.Repeat same steps to construct JK,D,T flipflops.
 
+3.Find Rtl logic and timing diagram for all flipflops.
+
+4.end the program.
 
 ### PROGRAM 
-/*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:PRIYADHARSHINI S
+
+RegisterNumber:23003522 
+
+## T flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/029e4af8-69af-4c6e-82f0-a29f26501141)
+
+## D flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/2fc5028b-7713-4fe1-a5e0-c8b251756487)
+
+## JK flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/2f6fa106-17a8-4b5f-8492-3dfb38ec2a98)
+
+## SR flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/d54aec0f-da2c-41b3-81fe-e5b90408002a)
 
 
 
+### RTL LOGIC FOR FLIPFLOPS:
 
+## T flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/6476e04e-c3f4-433f-9022-18a04d4d27a7)
 
+## D flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/26834208-3b73-43f9-98e4-2b3e6f70e8cc)
 
-### RTL LOGIC FOR FLIPFLOPS 
+## JK flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/a2cf8648-b230-4dfd-8fb0-01633ba4c6fd)
 
-
-
-
-
-
-
-
+## SR flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/8c5e90c1-6851-402b-a435-8cb73e47d14c)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+## T flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/1df8c64c-4e57-4da7-a9e4-8ed1afe405ab)
 
+## D flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/50e42686-4e27-4b89-9c49-4ecc45bd75f6)
 
+## JK flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/340b241b-4a43-4e9b-b1d6-ac9c935ca01a)
 
-
-
-
-
+## SR flipflop:
+![image](https://github.com/priyadharshini225/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138849213/a51cabe5-942e-4098-b7d7-ae2b45f86033)
 
 ### RESULTS 
+Thus implementation of SR,JK,D and T flipflops using nand gates are done sucessfully.
